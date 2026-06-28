@@ -97,4 +97,4 @@ These are estimates from 353 orders across 3 complete years. Each action should 
 ---
 
 *Full technical analysis: [github.com/danielacordo/mercadolibre-sales-analytics](https://github.com/danielacordo/mercadolibre-sales-analytics)*  
-*Live dashboard: [mercadolibre-analytics.onrender.com](https://mercadolibre-analytics.onrender.com)*
+*Live dashboard: [mercadolibre-analytics.onrender.com](https://mercadolibre-sales-analytics.onrender.com)*
