@@ -4,7 +4,7 @@
 
 > Real data, real problems, real decisions (not a Kaggle dataset)
 
-**-> [Live Dashboard](https://mercadolibre-analytics.onrender.com)** *(deploy pending)* | **[Executive Summary](EXECUTIVE_SUMMARY.md)** | **[Notebooks](notebooks/)** | **[Source Code](src/)** | **[SQL Queries](sql/)**
+**-> [Live Dashboard](https://mercadolibre-sales-analytics.onrender.com)** | **[Executive Summary](EXECUTIVE_SUMMARY.md)** | **[Notebooks](notebooks/)** | **[Source Code](src/)** | **[SQL Queries](sql/)**
 
 ---
 
@@ -356,7 +356,7 @@ data/ventas_decoraciones.csv + data/ipc_indec.csv
 
 ## Live Demo
 
-**[https://mercadolibre-analytics.onrender.com](https://mercadolibre-analytics.onrender.com)** *(deploy pending)*
+**[https://mercadolibre-sales-analytics.onrender.com](https://mercadolibre-sales-analytics.onrender.com)** 
 
 To run it locally instead:
 
