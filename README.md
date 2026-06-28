@@ -4,7 +4,7 @@
 
 > Real data, real problems, real decisions (not a Kaggle dataset)
 
-**→ [Live Dashboard](https://mercadolibre-analytics.onrender.com)** *(deploy pending)* · **[Executive Summary](EXECUTIVE_SUMMARY.md)** · **[Notebooks](notebooks/)** · **[Source Code](src/)** · **[SQL Queries](sql/)**
+**-> [Live Dashboard](https://mercadolibre-analytics.onrender.com)** *(deploy pending)* | **[Executive Summary](EXECUTIVE_SUMMARY.md)** | **[Notebooks](notebooks/)** | **[Source Code](src/)** | **[SQL Queries](sql/)**
 
 ---
 
@@ -12,11 +12,11 @@
 
 A decoration business on MercadoLibre Argentina gave me 3 years of sales data and one question that mattered: *if we raise prices, do we make more money or less?*
 
-I cleaned two incompatible data sources, found that one outlier sale (an off-catalog Gucci perfume) was inflating the reported net margin by several points, and built the analysis that answers the question. Along the way I also found that revenue is seasonal but the "Aug-Sep is peak every year" story doesn't fully hold once you exclude the partial current year from the average - September and January are actually the two strongest months, with August close behind, and that 134 buyers hold 59% of total revenue with a closing window to reach them.
+I cleaned two incompatible data sources, found that one outlier sale (an off-catalog Gucci perfume) was inflating the reported net margin by several points, and built the analysis that answers the question. Along the way I also found that revenue is seasonal but the "Aug-Sep is peak every year" story doesn't fully hold once you exclude the partial current year from the average. September and January are actually the two strongest months, with August close behind, and that 134 buyers hold 59% of total revenue with a closing window to reach them.
 
 The whole pipeline runs in 3 minutes when new data arrives.
 
-> **On sample size (n = 353 orders):** The value of this project is methodological, not statistical. 353 real orders from one business is not a representative market sample — and it was never meant to be. What it *is* suited for: demonstrating how to handle messy real-world data (multi-source merges, inflation distortion, broken standard methods), build honest models that acknowledge their limitations, and translate findings directly into decisions. The elasticity result (ε = -0.62) is directionally valid for *this business* and worth acting on. Generalizing to the Argentine decoration market would require a different dataset.
+> **On sample size (n = 353 orders):** The value of this project is methodological, not statistical. 353 real orders from one business is not a representative market sample, and it was never meant to be. What it *is* suited for: demonstrating how to handle messy real-world data (multi-source merges, inflation distortion, broken standard methods), build honest models that acknowledge their limitations, and translate findings directly into decisions. The elasticity result (ε = -0.62) is directionally valid for *this business* and worth acting on. Generalizing to the Argentine decoration market would require a different dataset.
 
 ---
 

@@ -1,7 +1,7 @@
 # Executive Summary
 ## MercadoLibre Decoration Business - Pricing & Demand Analysis
 
-**Period analyzed:** January 2023 – April 2026 · 353 orders · 312 customers  
+**Period analyzed:** January 2023 - April 2026 | 353 orders | 312 customers  
 **Business:** Handmade foam rubber decorations, MercadoLibre Argentina
 
 ---
@@ -32,7 +32,7 @@ The initial analysis concluded: "August and September run 30% above average, eve
 
 That was wrong. Re-running the seasonality index on complete calendar years only (to avoid distortion from partial-year inflation weighting) produced a different answer: September and January are the two strongest months on average, with the seasonal premium narrowing from 32% of annual revenue in 2023 to 17% in 2025.
 
-With three complete years on file, this is a real-but-uncertain pattern — worth planning around, not worth betting a fixed budget on.
+With three complete years on file, this is a real-but-uncertain pattern, worth planning around, not worth betting a fixed budget on.
 
 **3. Net margin required a methodological correction**
 
@@ -46,7 +46,7 @@ The corrected margin is also scoped correctly: ML Official channel only, excludi
 
 | Inaction | Estimated cost |
 |----------|----------------|
-| Holding prices flat for 12 months | Real margin continues eroding against CPI - directionally ~$60–80K ARS, not a precise figure |
+| Holding prices flat for 12 months | Real margin continues eroding against CPI, directionally ~$60–80K ARS, not a precise figure |
 | Advertising in August assuming a fixed peak | Missing the pre-decision window if the seasonal pattern continues shifting |
 | Not contacting recent first-time buyers | 134 buyers x declining repeat probability each week past the 30-day window |
 
@@ -75,7 +75,7 @@ Risk: Low-Medium. Reversible. Validate by comparing August 2026 vs August 2025 a
 
 ## What This Analysis Cannot Tell You
 
-The data covers completed sales only — not browsers who didn't convert, not competitor pricing, not lost sales from stockouts. The elasticity finding is consistent with standard economics for niche/gift products (Bijmolt et al. 2005 benchmark: ε = −0.65), but the causality question isn't fully settled: inflation and pricing moved together for reasons that may be partially unrelated to demand. A controlled price test on one product would confirm it with certainty.
+The data covers completed sales only, not browsers who didn't convert, not competitor pricing, not lost sales from stockouts. The elasticity finding is consistent with standard economics for niche/gift products (Bijmolt et al. 2005 benchmark: ε = −0.65), but the causality question isn't fully settled: inflation and pricing moved together for reasons that may be partially unrelated to demand. A controlled price test on one product would confirm it with certainty.
 
 The seasonal finding in particular should be re-verified each year. Three complete years is not enough to call a pattern stable.
 

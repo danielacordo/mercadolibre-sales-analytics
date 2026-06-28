@@ -340,6 +340,12 @@ def run_etl(path_cnx: str, path_ml: str, output_path: str, cutoff: pd.Timestamp 
         "Dataset does not reach 2026, check ML Official loading"
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+    # Anonymize customer identifiers before saving
+    import hashlib
+    df["Cliente"] = df["Cliente"].apply(
+    lambda x: "C_" + hashlib.md5(str(x).encode()).hexdigest()[:8]
+    if pd.notna(x) else x)
     df.to_csv(output_path, index=False)
 
     if verbose:
