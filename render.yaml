@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: mercadolibre-analytics
+    runtime: python
+    buildCommand: pip install -r requirements-deploy.txt
+    startCommand: gunicorn dashboard:server --bind 0.0.0.0:$PORT --workers 1 --timeout 120
+    envVars:
+      - key: DASH_DEBUG
+        value: "false"
+    plan: free

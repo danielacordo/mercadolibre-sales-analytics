@@ -1,0 +1,6 @@
+# Install with: 
+# pip install -r requirements.txt -r requirements-dev.txt
+
+jupyter==1.1.1
+nbconvert==7.16.4
+ipykernel==6.29.5
